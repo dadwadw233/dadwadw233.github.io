@@ -511,16 +511,6 @@ blockquote::before {
   color: #2c3e50;
   position: relative;
 }
-.page-title::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 1.2rem;
-  width: 60px;
-  height: 4px;
-  background: #3498db;
-  border-radius: 2px;
-}
 .page article {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
@@ -645,13 +635,10 @@ blockquote::before {
     width: 80%;
     float: right;
     margin-right: 0;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
   }
   .page:hover {
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    box-shadow: none;
   }
   .page .page-title {
     padding: 2rem 3.6rem 0;
