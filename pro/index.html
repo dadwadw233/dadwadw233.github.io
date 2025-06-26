@@ -1,0 +1,282 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Yuanhong Yu （于元宏）</title><meta name="author" content="Yuanhong Yu"><link rel="shortcut icon" href="/img/yyh.jpeg"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/">Yuanhong Yu （于元宏）</a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/"> Home</a></li><li class="menus_item"><a class="site-page" href="/pro/"> Projects</a></li><li class="menus_item"><a class="site-page" href="/experience/"> Experience</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/img/yyh-3.JPG" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar" itemprop="image"></div><div class="author-discrip"><h3 itemprop="name">Yuanhong Yu</h3><p class="author-bio" itemprop="description"></p><div class="location-info"><div class="location-item"><i class="fas fa-map-marker-alt"></i><span itemprop="homeLocation">Hangzhou, China</span></div><div class="location-item"><i class="fas fa-university"></i><span itemprop="affiliation">Zhejiang University</span></div></div></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-icons"><li><a class="social-icon" href="https://github.com/dadwadw233" target="_blank" itemprop="sameAs"><i class="fab fa-github" aria-hidden="true"></i></a></li><li><a class="social-icon" href="mailto:yuanhongyu.me@gmail.com" target="_blank" itemprop="sameAs"><i class="fas fa-envelope" aria-hidden="true"></i></a></li></ul><ul class="social-links"><li><a class="e-social-link" href="https://scholar.google.com/citations?user=eL8JRXwAAAAJ&amp;hl=zh-CN" target="_blank" itemprop="sameAs"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li></ul></div></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title">Projects</h2><article><section class="projects-container">
+  <!-- ICRA RoboMaster University AI Challenge -->
+  <div class="project-card">
+    <h2>ICRA RoboMaster University AI Challenge</h2>
+    <div class="project-content">
+      <div class="project-info">
+        <p class="project-achievement">Third Prize, May 2022</p>
+        <p>Led the robot localization and navigation system in a team-based autonomous robot competition. Implemented multi-sensor fusion using dual-height lidars, resolved positioning ambiguities in a symmetrical arena, and developed a robust path planning system that achieved an average speed of 1.3 m/s. Our innovative approach integrated sentry camera data to enhance obstacle avoidance and tactical positioning.</p>
+      </div>
+      <div class="project-gallery">
+        <div class="gallery-item">
+          <!-- <img src="car.png" alt="Robot with Lidars">
+          <img src="image18.GIF" alt="Localization in Action"> -->
+          <img src="image19.GIF" alt="Path Planning">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WeChat Mini Program Competition -->
+  <div class="project-card">
+    <h2>WeChat Mini Program Development Competition</h2>
+    <div class="project-content">
+      <div class="project-info">
+        <p class="project-achievement">Second Prize (Northwest Region), May 2022</p>
+        <p>Led a team to develop V5robot, an educational platform promoting robotics knowledge through interactive content and mini-games. The platform covers essential robotics concepts like navigation, vision, and control systems while serving as a recruitment tool for Northwestern Polytechnic University's Soccer Robotics Base.</p>
+      </div>
+      <div class="project-gallery">
+        <div class="gallery-grid">
+          <img src="V5robot.png" alt="V5robot Applet">
+          <img src="pathfinding.gif" alt="Pathfinding Feature">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Point Pair Feature-Based Pose Estimation -->
+  <div class="project-card">
+    <h2>Point Pair Feature-Based Pose Estimation</h2>
+    <div class="project-content">
+      <div class="project-info">
+        <p>Implemented center voting-based PPF pose estimation during my internship at ASGO-3D Lab. This approach transforms implicit PPF voting into explicit center voting, significantly improving pose hypothesis generation, clustering, and verification. Tested the algorithm's performance on the U3OR dataset with promising results.</p>
+        <div class="project-links">
+          <a href="https://github.com/dadwadw233/Central_Voting_PPF" class="github-link" target="_blank">
+            <i class="fab fa-github"></i> View Code
+          </a>
+        </div>
+      </div>
+      <div class="project-gallery">
+        <img src="centrer_voting1.png" alt="Center Voting Visualization">
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* 整体布局样式 */
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 项目卡片样式 */
+.project-card {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #ffffff, #f5f8fa);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.project-card h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #3498db;
+  border-radius: 3px;
+}
+
+/* 项目内容布局 */
+.project-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.project-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.project-achievement {
+  font-weight: 600;
+  color: #3498db;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.project-gallery {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* 图片画廊样式 */
+.gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.gallery-item img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0.75rem;
+}
+
+.gallery-grid img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* 项目链接样式 */
+.project-links {
+  margin-top: 1.5rem;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.github-link i {
+  margin-right: 0.5rem;
+}
+
+.github-link:hover {
+  background-color: #0366d6;
+  transform: translateY(-2px);
+}
+
+/* 比赛成果部分 */
+.competitions {
+  background: linear-gradient(145deg, #f8f9fa, #ffffff);
+}
+
+.competition-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.competition-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.competition-item:hover {
+  transform: translateX(5px);
+}
+
+.competition-image {
+  flex: 0 0 35%;
+  max-width: 300px;
+}
+
+.competition-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.competition-details {
+  flex: 1;
+}
+
+.competition-details h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-size: 1.4rem;
+}
+
+.competition-ranking {
+  color: #3498db;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.competition-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.competition-tags span {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: #3498db;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.competition-tags span:hover {
+  background-color: rgba(52, 152, 219, 0.2);
+  transform: translateY(-2px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .project-content {
+    flex-direction: column;
+  }
+  
+  .project-gallery {
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
+  
+  .competition-item {
+    flex-direction: column;
+  }
+  
+  .competition-image {
+    max-width: 100%;
+  }
+}
+</style></article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/"> Home</a></li><li class="nav_item"><a class="nav-page" href="/pro/"> Projects</a></li><li class="nav_item"><a class="nav-page" href="/experience/"> Experience</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2025 by Yuanhong Yu</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
